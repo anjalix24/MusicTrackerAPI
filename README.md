@@ -142,6 +142,40 @@ curl http://localhost:5000/api/songs
 - 🗃 **SQLite3** – Lightweight database for storage  <br>
 - 🌐 **HTML/CSS/JavaScript** – To power the frontend UI  <br>
 
+## ⚙️ Prerequisites
+
+Before you begin, make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v14 or above)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+- A code editor like [VS Code](https://code.visualstudio.com/)
+- [DB Browser for SQLite](https://sqlitebrowser.org/) (optional, for exploring `music.db`)
+
+---
+
+## 🔄 Resetting the Database
+
+- The database is stored in the file **`music.db`**.
+- To reset your data, simply delete the `music.db` file and restart the server:
+  ```bash
+  rm music.db
+  node server.js
+
+
+
+Contribute by:
+
+1.Fork this repository.
+
+2.Create a new branch (git checkout -b my-feature).
+
+3.Make your changes and commit (git commit -m "Added new feature").
+
+4.Push to your branch (git push origin my-feature).
+
+5.Open a Pull Request
+
+
 ## 📄 License  <br>
 
 This project is **open-source** and free to use!  <br>
